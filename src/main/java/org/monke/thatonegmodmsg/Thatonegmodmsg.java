@@ -32,7 +32,8 @@ public final class Thatonegmodmsg extends JavaPlugin implements Listener {
 
             registrar.register("togm:simulate", new SimulateJoinHandler(this));
             //hacky
-            registrar.register(Commands.literal("togm:reload").executes(ctx -> {
+            registrar.register(Commands.literal("togm:reload").requires(ctx -> ctx.getSender().isOp())
+                .executes(ctx -> {
                 reloadConfig();
                 ctx.getSource().getSender().sendMessage(String.format("Reloaded config. Default message: \"%s\"",
                         getConfig().getString("default")));

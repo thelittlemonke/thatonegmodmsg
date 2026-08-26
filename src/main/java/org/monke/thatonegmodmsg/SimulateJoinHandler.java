@@ -2,6 +2,7 @@ package org.monke.thatonegmodmsg;
 
 import io.papermc.paper.command.brigadier.BasicCommand;
 import io.papermc.paper.command.brigadier.CommandSourceStack;
+import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
@@ -20,6 +21,10 @@ public class SimulateJoinHandler implements BasicCommand {
             ctx.getSender().sendMessage("You can't run this command as a console");
             return;
         }
+        else if(!executor.isOp()){
+            ctx.getSender().sendMessage("You must be an operator to run this command");
+            return;
+        }
 
         if(args.length >= 1){
             String country_code = args[0];
@@ -28,5 +33,10 @@ public class SimulateJoinHandler implements BasicCommand {
         else{
             this.plugin.sendMessageIP((Player) executor);
         }
+    }
+
+    @Override
+    public boolean canUse(CommandSender sender) {
+        return sender.isOp();
     }
 }
