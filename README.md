@@ -15,13 +15,16 @@ Created by **thelittlemonke** for **CR4D** with **~~pure hatred~~ love**.
 - smelly code
 - bad config settings
 - literally can't disable it without uninstalling
-- it will literally send a request everytime someone joins
-- no exception handling
+- it will send a request everytime someone joins
+- swear words in readme
+- i steal all your data
 
 ## i am not a twitter user what does it do
-basically when a player joins a server, server makes a request to `http://ip-api.com` (they already have your ip when you joined btw) 
+basically when a player joins a server, server makes a request to `http://ip-api.com` (server's owner already has your ip when you joined btw) 
 to get your country code. then through some java locale magic converts it to country name
-that then is displayed to player who joined.
+that then is displayed to player who joined. \
+this is, in fact, what the original add-on did \
+see [their privacy policy](https://ip-api.com/docs/legal) btw 
 
 ## config
 config file is `config.yml` (duh)
@@ -56,8 +59,7 @@ also you need to be an operator to use these
 ## faq
 
 ### erm privacy????
-This plugin uses [ip-api.com](https://ip-api.com) to get user's country. see their privacy policy https://ip-api.com/docs/legal \
-Implementation is mostly the same as in the GMOD addon. IP doesn't get logged into some kind of file
+yeah no fuck you i am collecting everything about you
 
 ### why
 idk
@@ -68,6 +70,9 @@ intentional
 ### wtf is cr4d
 dude you don't wanna know... \
 oh the horror...
+
+### i am the owner of cr4d and literally what the fuck is this
+:3
 
 ## credits
 - thetopnick32 - idea
