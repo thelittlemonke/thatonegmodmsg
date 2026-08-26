@@ -7,6 +7,7 @@ Brings [that one infamous TacRP addon message](https://www.reddit.com/r/gmod/s/W
 A **PaperMC** plugin for Minecraft 1.21.11. \
 Created by **thelittlemonke** for **CR4D** with **~~pure hatred~~ love**.
 ![](screenshots/messages.png)
+###### this is a falsified screenshot actually
 
 **Why you should NOT install this plugin**, aka **the main selling points**:
 - only two commands (they are useless tho)
