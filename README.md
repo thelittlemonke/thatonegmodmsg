@@ -45,8 +45,12 @@ You can also use [MiniMessage format](https://docs.papermc.io/adventure/minimess
 just in case
 
 ## literally two commands only
+also you need to be an operator to use these
 - `/togm:reload`: reload the config
 - `/togm:simulate <country_code>`: simulate a join from a specific country (two characters btw) 
+### wait no holy shit its actually 4
+- `/thatonegmodmsg:togm:reload`: reload the config
+- `/thatonegmodmsg:togm:simulate <country_code>`: it is actually the same command
 ---
 ## faq
 
