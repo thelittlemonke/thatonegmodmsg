@@ -2,7 +2,7 @@
 Brings [that one infamous TacRP addon message](https://www.reddit.com/r/gmod/s/WFY16j2zX8) to Minecraft
 
 > [!NOTE]
-> This plugin was tested only on 1.21.1 with Java 25. It **should** work on other versions, but idk not sure
+> This plugin was tested only on 1.21.11 with Java 25. It **should** work on other versions, but idk not sure
 
 A **PaperMC** plugin for Minecraft 1.21.11. \
 Created by **thelittlemonke** for **CR4D** with **~~pure hatred~~ love**.
@@ -76,12 +76,5 @@ oh the horror...
 - mr breast
 
 ---
-while i know how this looks, i dont mean to offend someone with this silly mod. \
-dont like use it to violate human rights i guess?
-
-also i **do NOT** advocate for anything, i made this mod **PURELY** for **EDUCATIONAL** reasons **ONLY** 
-so as to learn java and papermc
-
-in accordance to a certain law, **you need to be a GROWN ADULT to use this**, 
-by using this mod you confirm that you (and all other players) are an adult \
-(probably only because of default config)
+do **NOT** use it to violate human rights!!!! *(important)*
+# **NO KIDS ALLOWED FUCK THEM KIDS** ~ Michael Jordan
