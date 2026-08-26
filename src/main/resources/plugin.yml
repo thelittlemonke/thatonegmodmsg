@@ -1,0 +1,6 @@
+name: thatonegmodmsg
+version: '${version}'
+
+main: org.monke.thatonegmodmsg.Thatonegmodmsg
+api-version: '1.21.11'
+load: POSTWORLD
